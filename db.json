@@ -1,15 +1,44 @@
-{ "deliveries": [
-    {
-        "id": 1234,
-        "address": "Some address",
-        "latitude": 2.334455,
-        "longitude": 4.323423, 
-        "customer_name": "Juan",
-        "id": 4567,
-        "address": "Some other address",
-        "latitude": 2.3432167,
-        "longitude": 4.676453,
-        "customer_name": "María Castro"
-    }
+{
+    "deliveries": [
+        {
+            "id": 1234,
+            "address": "Some address",
+            "latitude": 2.334455,
+            "longitude": 4.323423, 
+            "customer_name": "Juan"
+        },
+        {
+            "id": 4567,
+            "address": "Some other address",
+            "latitude": 2.3432167,
+            "longitude": 4.676453,
+            "customer_name": "María Castro"
+        }
+    ],
+    "deliveriesDetails" : [
+        {
+            "id": 1234,
+            "address": "Some address",
+            "latitude": 2.334455,
+            "longitude": 4.323423,
+            "customer_name": "Juan Pérez",
+            "requires_signature": false,
+            "special_instructions": "bluepoor, besides the car shop. Deliver to the car shop if necessary",
+            "tracking_data" : [
+
+            ]
+        },
+        {
+            "id": 4567,
+            "address": "Some other address",
+            "latitude": 2.3432167,
+            "longitude": 4.676453,
+            "customer_name": "María Castro",
+            "requires_signature": false,
+            "special_instructions": "hadh ksacn  oqwijv p",
+            "tracking_data" : [
+
+            ]
+        }
     ]
 }
