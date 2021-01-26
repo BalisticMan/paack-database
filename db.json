@@ -23,10 +23,7 @@
             "longitude": 4.323423,
             "customer_name": "Juan Pérez",
             "requires_signature": false,
-            "special_instructions": "bluepoor, besides the car shop. Deliver to the car shop if necessary",
-            "tracking_data" : [
-
-            ]
+            "special_instructions": "bluepoor, besides the car shop. Deliver to the car shop if necessary"
         },
         {
             "id": 4567,
@@ -35,9 +32,14 @@
             "longitude": 4.676453,
             "customer_name": "María Castro",
             "requires_signature": false,
-            "special_instructions": "hadh ksacn  oqwijv p",
-            "tracking_data" : [
-
+            "special_instructions": "hadh ksacn  oqwijv p"
+        }
+    ],
+    "trackingInformation": [
+        {
+            "driver_id": 1997,
+            "tracking_data": [
+                
             ]
         }
     ]
